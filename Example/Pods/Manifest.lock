@@ -1,0 +1,16 @@
+PODS:
+  - MTWebKitComponent (0.1.0)
+
+DEPENDENCIES:
+  - MTWebKitComponent (from `../`)
+
+EXTERNAL SOURCES:
+  MTWebKitComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTWebKitComponent: f139ce72fdd9d563343e9c2650d7fd839cb6a1dd
+
+PODFILE CHECKSUM: fb34f181c5e0531c5a7b3d859b2f49fd89154148
+
+COCOAPODS: 1.10.1

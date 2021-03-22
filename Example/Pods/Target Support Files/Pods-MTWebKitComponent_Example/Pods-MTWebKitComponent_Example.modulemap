@@ -1,0 +1,6 @@
+framework module Pods_MTWebKitComponent_Example {
+  umbrella header "Pods-MTWebKitComponent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
