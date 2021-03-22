@@ -1,29 +1,83 @@
-# MTWebKitComponent
+# YKWebKitComponent
 
-[![CI Status](https://img.shields.io/travis/v2top1@163.com/MTWebKitComponent.svg?style=flat)](https://travis-ci.org/v2top1@163.com/MTWebKitComponent)
-[![Version](https://img.shields.io/cocoapods/v/MTWebKitComponent.svg?style=flat)](https://cocoapods.org/pods/MTWebKitComponent)
-[![License](https://img.shields.io/cocoapods/l/MTWebKitComponent.svg?style=flat)](https://cocoapods.org/pods/MTWebKitComponent)
-[![Platform](https://img.shields.io/cocoapods/p/MTWebKitComponent.svg?style=flat)](https://cocoapods.org/pods/MTWebKitComponent)
+ 组件简介
+ 
+ 
+ <img src="http://ww1.sinaimg.cn/large/6de36fdcly1gop1cvpxkij20ku112dk2.jpg" alt="图片替换文本" width="400" align="bottom" />
 
-## Example
+ 
+使用WebViewJavascriptBridge完成原生和H5的交互，实现对WKWebvbiew的封装：
+ 
+ - 导航栏实现关闭按钮和返回按钮
+ - 监听webview页面返回事件完成返回按钮和关闭按钮的功能
+ - 监听webview导航栏来改变原生导航栏的标题
+ - 注册原生方法供给JS调用
+ - 调用JS的方法，提供回调
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+WebViewJavascriptBridge介绍：
 
-## Requirements
+ [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
 
-## Installation
 
-MTWebKitComponent is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 使用方法
 
-```ruby
-pod 'MTWebKitComponent'
+### 核心类 `YKWebViewController`
+
+#### 初始化子类对象并加载URL
+```ObjC
+
+ - (instancetype)initWithUrl:(NSString *)url;
+ 
 ```
 
-## Author
+#### 主动调用JS方法
 
-v2top1@163.com, tomliu@yeahka.com
+```
+- (void)callJsFunctionWithModel:(YKWebBridgeHandlerModel*)model andCallBack:(YKWebbridgeHandlerDictionaryBlock)result;
+```
 
-## License
+#### 响应JS调用
+实现`YKWebBridgeHandlerAction`的子类，并注册该类类名
+```
++ (void)load {
 
-MTWebKitComponent is available under the MIT license. See the LICENSE file for more info.
+    [YKWebBridgeActionCenter registerAction:[self class]];
+}
+```
+
+重载以下方法即可
+
+```
+- (instancetype)initWithFunctionModel:(YKWebBridgeHandlerModel*)model {
+    if (self = [super init]) {
+        NSLog(@"model -- %@",[model mj_keyValues]);
+    }
+    return self;
+}
+
+- (void)processTheFunction {
+    NSLog(@"调用扫码");
+}
+
+```
+
+
+
+## 集成
+
+
+```ruby
+pod 'YKWebKitComponent'
+```
+
+## 前端 Vue - Demo使用
+
+### Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
