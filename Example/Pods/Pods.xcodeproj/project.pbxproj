@@ -15,16 +15,16 @@
 		AB23A92BCF4671A53E05C38E52D41A94 /* MTWebKitComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9026C7E60D79E79C375753D7F171B6EB /* MTWebKitComponent-dummy.m */; };
 		AD29ADF42148C15DD94B1B15B7698FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C8C8B8012604B48800690634 /* MTWebKitComponentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B7F52604B48800690634 /* MTWebKitComponentHeader.h */; };
-		C8C8B81D2604B4DE00690634 /* YKWebViewControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8132604B4DE00690634 /* YKWebViewControllerHeader.h */; };
-		C8C8B81E2604B4DE00690634 /* YKWebBridgeHandlerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8142604B4DE00690634 /* YKWebBridgeHandlerAction.m */; };
-		C8C8B81F2604B4DE00690634 /* YKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8152604B4DE00690634 /* YKWebViewController.m */; };
-		C8C8B8202604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8162604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.m */; };
+		C8C8B81D2604B4DE00690634 /* MTWebViewControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8132604B4DE00690634 /* MTWebViewControllerHeader.h */; };
+		C8C8B81E2604B4DE00690634 /* MTWebBridgeHandlerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8142604B4DE00690634 /* MTWebBridgeHandlerAction.m */; };
+		C8C8B81F2604B4DE00690634 /* MTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8152604B4DE00690634 /* MTWebViewController.m */; };
+		C8C8B8202604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B8162604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.m */; };
 		C8C8B8212604B4DE00690634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C8B8172604B4DE00690634 /* Assets.xcassets */; };
-		C8C8B8222604B4DE00690634 /* YKWebBridgeHandlerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8182604B4DE00690634 /* YKWebBridgeHandlerModel.h */; };
-		C8C8B8232604B4DE00690634 /* YKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8192604B4DE00690634 /* YKWebViewController.h */; };
-		C8C8B8242604B4DE00690634 /* YKWebBridgeHandlerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B81A2604B4DE00690634 /* YKWebBridgeHandlerAction.h */; };
-		C8C8B8252604B4DE00690634 /* YKWebBridgeHandlerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B81B2604B4DE00690634 /* YKWebBridgeHandlerModel.m */; };
-		C8C8B8262604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B81C2604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.h */; };
+		C8C8B8222604B4DE00690634 /* MTWebBridgeHandlerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8182604B4DE00690634 /* MTWebBridgeHandlerModel.h */; };
+		C8C8B8232604B4DE00690634 /* MTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B8192604B4DE00690634 /* MTWebViewController.h */; };
+		C8C8B8242604B4DE00690634 /* MTWebBridgeHandlerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B81A2604B4DE00690634 /* MTWebBridgeHandlerAction.h */; };
+		C8C8B8252604B4DE00690634 /* MTWebBridgeHandlerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8B81B2604B4DE00690634 /* MTWebBridgeHandlerModel.m */; };
+		C8C8B8262604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C8B81C2604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.h */; };
 		C8FB9807548AE3011706798E695A99DE /* MTWebKitComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 905A3BB72425B368AC60D6CCBF97D6C5 /* MTWebKitComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA4783785FA678AE4CE94BA3D510164D /* Pods-MTWebKitComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE403415FBA5431154E5EBB6266DF08 /* Pods-MTWebKitComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -73,16 +73,16 @@
 		C359B45888E4D54967D736E6431EA511 /* Pods_MTWebKitComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTWebKitComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F444022B3E65A2A33F1BBDF56F71AA /* MTWebKitComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTWebKitComponent-prefix.pch"; sourceTree = "<group>"; };
 		C8C8B7F52604B48800690634 /* MTWebKitComponentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWebKitComponentHeader.h; path = MTWebKitComponent/Classes/MTWebKitComponentHeader.h; sourceTree = "<group>"; };
-		C8C8B8132604B4DE00690634 /* YKWebViewControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKWebViewControllerHeader.h; sourceTree = "<group>"; };
-		C8C8B8142604B4DE00690634 /* YKWebBridgeHandlerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKWebBridgeHandlerAction.m; sourceTree = "<group>"; };
-		C8C8B8152604B4DE00690634 /* YKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKWebViewController.m; sourceTree = "<group>"; };
-		C8C8B8162604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YKWebViewController+YKNavigationBarSetting.m"; sourceTree = "<group>"; };
+		C8C8B8132604B4DE00690634 /* MTWebViewControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebViewControllerHeader.h; sourceTree = "<group>"; };
+		C8C8B8142604B4DE00690634 /* MTWebBridgeHandlerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebBridgeHandlerAction.m; sourceTree = "<group>"; };
+		C8C8B8152604B4DE00690634 /* MTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebViewController.m; sourceTree = "<group>"; };
+		C8C8B8162604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTWebViewController+MTNavigationBarSetting.m"; sourceTree = "<group>"; };
 		C8C8B8172604B4DE00690634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8C8B8182604B4DE00690634 /* YKWebBridgeHandlerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKWebBridgeHandlerModel.h; sourceTree = "<group>"; };
-		C8C8B8192604B4DE00690634 /* YKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKWebViewController.h; sourceTree = "<group>"; };
-		C8C8B81A2604B4DE00690634 /* YKWebBridgeHandlerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKWebBridgeHandlerAction.h; sourceTree = "<group>"; };
-		C8C8B81B2604B4DE00690634 /* YKWebBridgeHandlerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKWebBridgeHandlerModel.m; sourceTree = "<group>"; };
-		C8C8B81C2604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YKWebViewController+YKNavigationBarSetting.h"; sourceTree = "<group>"; };
+		C8C8B8182604B4DE00690634 /* MTWebBridgeHandlerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebBridgeHandlerModel.h; sourceTree = "<group>"; };
+		C8C8B8192604B4DE00690634 /* MTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebViewController.h; sourceTree = "<group>"; };
+		C8C8B81A2604B4DE00690634 /* MTWebBridgeHandlerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebBridgeHandlerAction.h; sourceTree = "<group>"; };
+		C8C8B81B2604B4DE00690634 /* MTWebBridgeHandlerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebBridgeHandlerModel.m; sourceTree = "<group>"; };
+		C8C8B81C2604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTWebViewController+MTNavigationBarSetting.h"; sourceTree = "<group>"; };
 		CC8519C04EB3F61A403E3288931DCC52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CD91AF4DE6B7750BF0302B8E0BA61350 /* Pods-MTWebKitComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTWebKitComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C960AC1E28BCEA2B5A7DDF32C3C3A0 /* Pods-MTWebKitComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTWebKitComponent_Example-dummy.m"; sourceTree = "<group>"; };
@@ -228,16 +228,16 @@
 		C8C8B8122604B4DE00690634 /* MTWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C8C8B8132604B4DE00690634 /* YKWebViewControllerHeader.h */,
-				C8C8B8142604B4DE00690634 /* YKWebBridgeHandlerAction.m */,
-				C8C8B8152604B4DE00690634 /* YKWebViewController.m */,
-				C8C8B8162604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.m */,
+				C8C8B8132604B4DE00690634 /* MTWebViewControllerHeader.h */,
+				C8C8B81A2604B4DE00690634 /* MTWebBridgeHandlerAction.h */,
+				C8C8B8142604B4DE00690634 /* MTWebBridgeHandlerAction.m */,
+				C8C8B8192604B4DE00690634 /* MTWebViewController.h */,
+				C8C8B8152604B4DE00690634 /* MTWebViewController.m */,
+				C8C8B8182604B4DE00690634 /* MTWebBridgeHandlerModel.h */,
+				C8C8B81B2604B4DE00690634 /* MTWebBridgeHandlerModel.m */,
+				C8C8B81C2604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.h */,
+				C8C8B8162604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.m */,
 				C8C8B8172604B4DE00690634 /* Assets.xcassets */,
-				C8C8B8182604B4DE00690634 /* YKWebBridgeHandlerModel.h */,
-				C8C8B8192604B4DE00690634 /* YKWebViewController.h */,
-				C8C8B81A2604B4DE00690634 /* YKWebBridgeHandlerAction.h */,
-				C8C8B81B2604B4DE00690634 /* YKWebBridgeHandlerModel.m */,
-				C8C8B81C2604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.h */,
 			);
 			name = MTWebViewController;
 			path = MTWebKitComponent/Classes/MTWebViewController;
@@ -278,11 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8FB9807548AE3011706798E695A99DE /* MTWebKitComponent-umbrella.h in Headers */,
-				C8C8B8242604B4DE00690634 /* YKWebBridgeHandlerAction.h in Headers */,
-				C8C8B8262604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.h in Headers */,
-				C8C8B8222604B4DE00690634 /* YKWebBridgeHandlerModel.h in Headers */,
-				C8C8B81D2604B4DE00690634 /* YKWebViewControllerHeader.h in Headers */,
-				C8C8B8232604B4DE00690634 /* YKWebViewController.h in Headers */,
+				C8C8B8242604B4DE00690634 /* MTWebBridgeHandlerAction.h in Headers */,
+				C8C8B8262604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.h in Headers */,
+				C8C8B8222604B4DE00690634 /* MTWebBridgeHandlerModel.h in Headers */,
+				C8C8B81D2604B4DE00690634 /* MTWebViewControllerHeader.h in Headers */,
+				C8C8B8232604B4DE00690634 /* MTWebViewController.h in Headers */,
 				C8C8B8012604B48800690634 /* MTWebKitComponentHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +429,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C8B81E2604B4DE00690634 /* YKWebBridgeHandlerAction.m in Sources */,
+				C8C8B81E2604B4DE00690634 /* MTWebBridgeHandlerAction.m in Sources */,
 				AB23A92BCF4671A53E05C38E52D41A94 /* MTWebKitComponent-dummy.m in Sources */,
-				C8C8B8202604B4DE00690634 /* YKWebViewController+YKNavigationBarSetting.m in Sources */,
-				C8C8B8252604B4DE00690634 /* YKWebBridgeHandlerModel.m in Sources */,
-				C8C8B81F2604B4DE00690634 /* YKWebViewController.m in Sources */,
+				C8C8B8202604B4DE00690634 /* MTWebViewController+MTNavigationBarSetting.m in Sources */,
+				C8C8B8252604B4DE00690634 /* MTWebBridgeHandlerModel.m in Sources */,
+				C8C8B81F2604B4DE00690634 /* MTWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

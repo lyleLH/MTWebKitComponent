@@ -1,6 +1,6 @@
 //
-//  MTWebViewController+YKNavigationBarSetting.m
-//  YKWebKitComponent
+//  MTWebViewController+MTNavigationBarSetting.m
+//  MTWebKitComponent
 //
 //  Created by Tom.Liu on 2021/3/16.
 //

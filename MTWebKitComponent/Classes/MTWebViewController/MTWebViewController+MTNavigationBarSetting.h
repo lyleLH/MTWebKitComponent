@@ -1,6 +1,6 @@
 //
-//  MTWebViewController+YKNavigationBarSetting.h
-//  YKWebKitComponent
+//  MTWebViewController+MTNavigationBarSetting.h
+//  MTWebKitComponent
 //
 //  Created by Tom.Liu on 2021/3/16.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MTWebViewController (YKNavigationBarSetting)
+@interface MTWebViewController (MTNavigationBarSetting)
 - (void)yk_setNormalTitle:(NSString *)title withFont:(UIFont*)font;
 - (void)yk_setWhiteTitle:(NSString *)title withFont:(UIFont*)font ;
 - (void)yk_setTitle:(NSString *)title color:(UIColor *)color font:(UIFont *)font;

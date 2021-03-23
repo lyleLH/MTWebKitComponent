@@ -1,6 +1,6 @@
 //
 //  MTWebBridgeHandlerModel.h
-//  YKWebKitComponent
+//  MTWebKitComponent
 //
 //  Created by Tom.Liu on 2021/3/16.
 //

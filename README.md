@@ -1,4 +1,4 @@
-# YKWebKitComponent
+# MTWebKitComponent
 
  组件简介
  
@@ -21,7 +21,7 @@ WebViewJavascriptBridge介绍：
 
 ## 使用方法
 
-### 核心类 `YKWebViewController`
+### 核心类 `MTWebViewController`
 
 #### 初始化子类对象并加载URL
 ```ObjC
@@ -33,22 +33,22 @@ WebViewJavascriptBridge介绍：
 #### 主动调用JS方法
 
 ```
-- (void)callJsFunctionWithModel:(YKWebBridgeHandlerModel*)model andCallBack:(YKWebbridgeHandlerDictionaryBlock)result;
+- (void)callJsFunctionWithModel:(MTWebBridgeHandlerModel*)model andCallBack:(MTWebbridgeHandlerDictionaryBlock)result;
 ```
 
 #### 响应JS调用
-实现`YKWebBridgeHandlerAction`的子类，并注册该类类名
+实现`MTWebBridgeHandlerAction`的子类，并注册该类类名
 ```
 + (void)load {
 
-    [YKWebBridgeActionCenter registerAction:[self class]];
+    [MTWebBridgeActionCenter registerAction:[self class]];
 }
 ```
 
 重载以下方法即可
 
 ```
-- (instancetype)initWithFunctionModel:(YKWebBridgeHandlerModel*)model {
+- (instancetype)initWithFunctionModel:(MTWebBridgeHandlerModel*)model {
     if (self = [super init]) {
         NSLog(@"model -- %@",[model mj_keyValues]);
     }
@@ -67,7 +67,7 @@ WebViewJavascriptBridge介绍：
 
 
 ```ruby
-pod 'YKWebKitComponent'
+pod 'MTWebKitComponent'
 ```
 
 ## 前端 Vue - Demo使用
